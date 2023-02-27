@@ -1,0 +1,120 @@
+body{
+  background: rgba(0, 0, 0, 0.979);
+}
+
+.app-header{
+  height: 40rem;
+  font-family: 'Montserrat';
+  background-image: url(./assets/images/covid6.jpg);
+  background-size: 100%;
+}
+
+.linkedin{
+  margin-left: 75rem;
+  margin-top: 0rem;
+  width: 5.3rem;
+}
+
+.github{
+  position: absolute;
+  left: 79.5rem;
+  top: 1rem;
+  width: 4.3rem;;
+}
+
+.covidtitle{
+  width: 6.5rem;
+}
+
+h1{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 4.7rem;
+  color: rgb(247, 205, 150);
+  padding-top: 11rem;
+  margin-left: 3rem;
+  letter-spacing: 5px;
+}
+
+.tracker {
+  margin-top:-12.5rem;
+}
+
+p{
+  display: flex;
+  text-align:left;
+  font-size: 1rem;
+  color: white;
+  line-height: 1.5rem;
+  margin-left: 3rem;
+  margin-right: 50rem;
+}
+
+.tracker2{
+  display: flex;
+  justify-content: center;
+  font-size: 4.7rem;
+  font-family: 'Montserrat';
+  color: rgb(247, 196, 130);
+  margin-top: 3rem;
+  letter-spacing: 5px;
+}
+
+.app-dropdown{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-right: 30rem;
+  margin-left: 30rem;
+  padding: 2rem;
+}
+
+.formcontrol{
+  background-color: rgb(248, 245, 245);
+}
+
+.app-stats{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.covid2{
+  position: absolute;
+  top: 66rem;
+  left: 8rem;
+  width: 14rem;
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
+.covid3{
+  position: absolute;
+  top: 89rem;
+  right: 5rem;
+  width: 17rem;
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
+.app-right{
+  display: flex;
+  align-items: end;
+  justify-content:flex-end;
+  margin-right: 5rem;
+  margin-left: 60rem;
+  margin-top: 3rem;
+}
+
+h3{
+  font-family: 'Montserrat';
+}
+

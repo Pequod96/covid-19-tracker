@@ -1,0 +1,16 @@
+
+.infobox-cases{
+    width: 20rem;
+}
+
+
+.infobox-cases--green {
+    color: darkgreen !important;
+}
+
+.infobox-cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}

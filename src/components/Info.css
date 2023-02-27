@@ -1,0 +1,46 @@
+.link{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    color: #96e6c1;
+    margin-top: 17rem;
+}
+
+a:hover{
+    color: #5de6a68c;
+}
+
+.app-info{
+    margin-top: 13rem;
+}
+
+.title2{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 9rem;
+    margin-right: 3rem;
+    font-size: 4.5rem;
+    letter-spacing: 5px;
+    font-family: 'Montserrat';
+    color: rgb(219, 164, 92);
+}
+
+.covid1{
+    margin-top: -10rem;
+    margin-left: -5rem;
+    width: 53%;
+  }
+
+.info{
+    text-align: right;
+    margin-top: -33.5rem;
+    margin-left: 38rem;
+    margin-right: 3rem;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    line-height: 1.5rem;
+    color:antiquewhite;
+}

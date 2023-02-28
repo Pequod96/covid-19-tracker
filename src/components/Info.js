@@ -4,9 +4,9 @@ import '../components/Info.css';
 
 function Info() {
   return (
-    <div className='app-info'>
+    <div className='app-info' id='avoidcovid'>
       <h3 className='title2'>AVOID COVID</h3>
-      <img className="covid1" src={covid1}/>
+      <img className="covid1" src={covid1} alt=''/>
       <p className='info'>Improving ventilation (moving air into, out of, or within a room) and filtration
       (trapping particles on a filter to remove them from the air) can help prevent virus particles
       from accumulating in indoor air. Improving ventilation and filtration can help protect you from getting

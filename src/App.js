@@ -85,6 +85,9 @@ function App() {
      <h1 className='tracker'>TRACKER</h1>
      <p>The updated real-time statistics of the coronavirus Covid-19 in the United States.
      The data of the infected, the dead and the recovered.</p>
+     <Link to='#tracker2' smooth>
+     <img className="covidtitle2" src={covidTitle2} alt=''/>
+     </Link>
      </div>
      <h2 className='tracker2' id='tracker2'>TRACKER</h2>
      <div className='app-dropdown'>
@@ -126,7 +129,7 @@ function App() {
       <div className='footer-link'>
       <Link to='#header' smooth>
       COVID-19 TRACKER 
-      <img className="covidtitle2" src={covidTitle2} alt=''/>
+      <img className="covidtitle3" src={covidTitle2} alt=''/>
      </Link>
      </div>
     </div>

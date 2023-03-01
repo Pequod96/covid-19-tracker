@@ -59,6 +59,15 @@ p{
   margin-right: 50rem;
 }
 
+.covidtitle2{
+  width: 0rem;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
 .tracker2{
   display: flex;
   justify-content: center;
@@ -110,7 +119,7 @@ h3{
   margin-left: 5rem;
 }
 
-.covidtitle2{
+.covidtitle3{
   position: absolute;
   top: 141.8rem;
   width: 3rem;
@@ -128,8 +137,9 @@ h3{
 
 @media only screen and (min-width: 390px) and (max-width: 480px){
   .app-header{
-    height: 20rem;
-    background-size: 150%;
+    height: 42rem;
+    background-size: 315%;
+    text-align: center;
   }
   
   a{
@@ -137,46 +147,58 @@ h3{
     padding-top: 1rem;
     padding-left: 3rem;
     padding-right: -4rem;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 
   .USAGov{
     position: absolute;
-    left: 21.5rem;
+    left: 22rem;
     top: 0.5rem;
     width: 1.5rem;;
   }
   
   .covidtitle{
-    width: 2.5rem;
+    width: 3rem;
   }
   
   h1{
     display: flex;
     justify-content: center;
-    font-size: 1.7rem;
-    padding-top: 5rem;
-    margin-right: 3.5rem;
+    font-size: 2.5rem;
+    padding-top: 9rem;
+    margin-right: 3rem;
   }
   
   .tracker {
-    margin-top:-5.5rem;
+    margin-top:-9.5rem;
   }
   
   p{
     display: flex;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     text-align: center;
     line-height: 1rem;
-    margin-left: 5.5rem;
-    margin-right: 6rem;
+    margin-left: 2.5rem;
+    margin-right: 3rem;
+  }
+
+  .covidtitle2{
+    margin-top: 13rem;
+    margin-right: 3rem;
+    height: 7rem;
+    width: 15rem;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   
   .tracker2{
     display: flex;
     justify-content: center;
-    font-size: 1.7rem;
-    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
   }
   
   .app-dropdown{
@@ -205,8 +227,8 @@ h3{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-right: 2.5rem;
-    margin-left: 2.5rem;
+    margin-right: 3.5rem;
+    margin-left: 3.5rem;
     margin-top: 20rem;
   }
   
@@ -217,10 +239,12 @@ h3{
     margin-right: 1rem;
   }
   
-  .covidtitle2{
+  .covidtitle3{
     position: absolute;
-    top: 138.8rem;
-    width: 1rem;
+    top: 171.8rem;
+    left: 8.2rem;
+    width: 8rem;
+    height: 3.5rem;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -o-transform: rotate(180deg);
@@ -229,9 +253,11 @@ h3{
   }
   
   .footer-link{
+    text-align: center;
+    height: 7.5rem;
     margin-left: 3rem;
     margin-right: 6rem;
-    margin-top: -0.3rem;
+    margin-top: 2rem;
     margin-bottom: 0.5rem;
   }
 }

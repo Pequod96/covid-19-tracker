@@ -6,6 +6,7 @@ import Table from './components/Table';
 import { sortData, prettyPrintStat } from './components/util';
 import numeral from 'numeral';
 import covidTitle from '../src/assets/images/covidTitle.gif';
+import covidTitle2 from '../src/assets/images/covidtitle2.gif';
 import USAGov from '../src/assets/images/USAGov.png';
 import BarChart from './components/BarChart';
 import { StatesData } from './Data';
@@ -72,11 +73,11 @@ function App() {
   return (
     <BrowserRouter>
     <div className="app">
-     <div className='app-header'>
-     <Link className='navlink' to='#tracker2' smooth>
+     <div className='app-header' id='header'>
+     <Link to='#tracker2' smooth>
       TRACKER
      </Link>
-     <Link className='navlink' to='#avoidcovid' smooth>
+     <Link to='#avoidcovid' smooth>
       AVOID COVID
      </Link>
      <a href='https://www.usa.gov/coronavirus' target={'blank'}><img className='USAGov' src={USAGov} alt=''/></a>
@@ -122,6 +123,12 @@ function App() {
       <BarChart chartData={statesData} />
       </div>
       <Info />
+      <div className='footer-link'>
+      <Link to='#header' smooth>
+      COVID-19 TRACKER 
+      <img className="covidtitle2" src={covidTitle2} alt=''/>
+     </Link>
+     </div>
     </div>
     </BrowserRouter>
   );

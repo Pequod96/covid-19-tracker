@@ -6,11 +6,11 @@
     font-family: 'Montserrat';
     letter-spacing: 2px;
     color: #96e6c1;
-    margin-top: 17rem;
+    margin-top: 15rem;
 }
 
-a:hover{
-    color: #5de6a68c;
+.link:hover{
+    color: rgba(247, 205, 150, 0.685);
 }
 
 .app-info{
@@ -43,4 +43,49 @@ a:hover{
     font-family: 'Montserrat';
     line-height: 1.5rem;
     color:antiquewhite;
+}
+
+@media only screen and (min-width: 390px) and (max-width: 480px){
+    .link{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 0.4rem;
+        margin-right: 1.5rem;
+        margin-left: -1rem;
+    }
+    
+    .app-info{
+        text-align: center;
+        margin-top: 27rem;
+    }
+    
+    .title2{
+        display: inline-block;
+        font-size: 1.7rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    
+    .covid1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        width: 80%;
+        padding-top: 20rem;
+      }
+    
+    .info{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+        margin-top: -28rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-size: 0.7rem;
+        line-height: 1.1rem;
+    }
 }

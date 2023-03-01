@@ -14,3 +14,25 @@
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
 }
+
+@media only screen and (min-width: 390px) and (max-width: 480px){
+    .infobox-cases{
+        width: 18rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .infobox-cases--green {
+        color: darkgreen !important;
+    }
+    
+    .infobox-cases {
+        color: #cc1034;
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+}

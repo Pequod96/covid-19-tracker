@@ -135,6 +135,135 @@ h3{
   margin-top: 1rem;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 375px){
+  .app-header{
+    height: 46rem;
+    background-size: 360%;
+    text-align: center;
+  }
+  
+  a{
+    display: inline-block;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: -4rem;
+    font-size: 0.6rem;
+  }
+
+  .USAGov{
+    position: absolute;
+    left: 20rem;
+    top: 0.5rem;
+    width: 1.8rem;
+  }
+  
+  .covidtitle{
+    width: 3rem;
+  }
+  
+  h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding-top: 12rem;
+    margin-right: 4rem;
+  }
+  
+  .tracker {
+    margin-top:-12.5rem;
+  }
+  
+  p{
+    display: flex;
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 1rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+  }
+
+  .covidtitle2{
+    margin-top: 8rem;
+    margin-right: 3rem;
+    height: 11rem;
+    width: 9rem;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  
+  .tracker2{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+  }
+  
+  .app-dropdown{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    padding: 1.5rem;
+  }
+  
+  .formcontrol{
+    border-radius: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .app-stats{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .app-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 3.5rem;
+    margin-left: 3.5rem;
+    margin-top: 20rem;
+  }
+  
+  .barchart{
+    width: 20.5rem;
+    margin-top: -40rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .covidtitle3{
+    position: absolute;
+    top: 175.8rem;
+    left: 8.6rem;
+    width: 6rem;
+    height: 5.5rem;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  
+  .footer-link{
+    text-align: center;
+    height: 7.5rem;
+    margin-left: 3rem;
+    margin-right: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
 @media only screen and (min-width: 390px) and (max-width: 480px){
   .app-header{
     height: 46rem;
@@ -154,7 +283,7 @@ h3{
     position: absolute;
     left: 21rem;
     top: 0.5rem;
-    width: 2rem;;
+    width: 2rem;
   }
   
   .covidtitle{
@@ -212,7 +341,9 @@ h3{
   }
   
   .formcontrol{
-    border-radius: 1.5rem;;
+    border-radius: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
   }
   
   .app-stats{
@@ -259,5 +390,369 @@ h3{
     margin-right: 6rem;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .app-header{
+    height: 46rem;
+    background-size: 175%;
+    text-align: center;
+  }
+  
+  a{
+    display: inline-block;
+    padding-top: 1.2rem;
+    padding-left: 3rem;
+    padding-right: -4rem;
+    font-size: 1rem;
+  }
+
+  .USAGov{
+    position: absolute;
+    left: 44rem;
+    top: 0.7rem;
+    width: 2.5rem;
+  }
+  
+  .covidtitle{
+    width: 4rem;
+  }
+  
+  h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+    padding-top: 12rem;
+    margin-right: 4rem;
+  }
+  
+  .tracker {
+    margin-top:-12.5rem;
+  }
+  
+  p{
+    display: flex;
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-left: 10.5rem;
+    margin-right: 11.5rem;
+  }
+
+  .covidtitle2{
+    margin-top: 7rem;
+    margin-right: 3rem;
+    height: 10rem;
+    width: 10rem;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  
+  .tracker2{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 3.5rem;
+  }
+  
+  .app-dropdown{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-right: 6rem;
+    margin-left: 6rem;
+    padding: 1.5rem;
+  }
+  
+  .formcontrol{
+    border-radius: 1.5rem;
+  }
+  
+  .app-stats{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .app-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 3.5rem;
+    margin-left: 3.5rem;
+    margin-top: 38rem;
+  }
+  
+  .barchart{
+    width: 43.5rem;
+    margin-top: -55rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .covidtitle3{
+    position: absolute;
+    top: 215.8rem;
+    left: 20.5rem;
+    width: 7.5rem;
+    height: 4rem;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  
+  .footer-link{
+    text-align: center;
+    height: 7.5rem;
+    margin-left: 3rem;
+    margin-right: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .app-header{
+    text-align: center;
+    height: 40rem;
+    background-size: 115%;
+  }
+  
+  a{
+    display: inline-block;
+    padding-top: 1.7rem;
+    padding-left: 3rem;
+    padding-right: -4rem;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+  }
+  
+  .USAGov{
+    position: absolute;
+    left: 59rem;
+    top: 0.8rem;
+    width: 3.5rem;;
+  }
+  
+  .covidtitle{
+    width: 6rem;
+  }
+  
+  h1{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 4.5rem;
+    padding-top: 13rem;
+    margin-left: 3rem;
+    letter-spacing: 5px;
+  }
+  
+  .tracker {
+    margin-top:-13.5rem;
+  }
+  
+  p{
+    display: flex;
+    text-align:left;
+    font-size: 1rem;
+    color: white;
+    line-height: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 32rem;
+  }
+  
+  .covidtitle2{
+    width: 0rem;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  
+  .tracker2{
+    display: flex;
+    justify-content: center;
+    font-size: 4.5rem;
+    margin-top: 3rem;
+    letter-spacing: 5px;
+  }
+  
+  .app-dropdown{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    padding: 2.5rem;
+    margin-right: 20rem;
+    margin-left: 20rem;
+  }
+  
+  .app-stats{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: unset;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+  
+  .app-right{
+    display: flex;
+    align-items: end;
+    justify-content:flex-end;
+    margin-right: 6rem;
+    margin-left: 40rem;
+    margin-top: 3rem;
+  }
+  
+  .barchart{
+    width: 34rem;
+    margin-top: -17rem;
+    margin-left: 3rem;
+  }
+  
+  .covidtitle3{
+    position: absolute;
+    top: 132.2rem;
+    left: 39rem;
+    width: 3rem;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  
+  .footer-link{
+    text-align: center;
+    margin-top: 1rem;
+    height: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1366px){
+  .app-header{
+    text-align: center;
+    height: 40rem;
+    background-size: 100%;
+  }
+  
+  a{
+    display: inline-block;
+    padding-top: 1.7rem;
+    padding-left: 3rem;
+    padding-right: -4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+  }
+  
+  .USAGov{
+    position: absolute;
+    left: 79rem;
+    top: 1rem;
+    width: 3.7rem;;
+  }
+  
+  .covidtitle{
+    width: 6.5rem;
+  }
+  
+  h1{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 4.7rem;
+    padding-top: 13rem;
+    margin-left: 3rem;
+    letter-spacing: 5px;
+  }
+  
+  .tracker {
+    margin-top:-13.5rem;
+  }
+  
+  p{
+    display: flex;
+    text-align:left;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 50rem;
+  }
+  
+  .covidtitle2{
+    width: 0rem;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  
+  .tracker2{
+    display: flex;
+    justify-content: center;
+    font-size: 4.7rem;
+    margin-top: 3rem;
+    letter-spacing: 5px;
+  }
+  
+  .app-dropdown{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-right: 30rem;
+    margin-left: 30rem;
+    padding: 2rem;
+  }
+  
+  .formcontrol{
+    border-radius: 1.5rem;;
+  }
+  
+  .app-stats{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+  
+  .app-right{
+    display: flex;
+    align-items: end;
+    justify-content:flex-end;
+    margin-right: 6rem;
+    margin-left: 59rem;
+    margin-top: 3rem;
+  }
+  
+  .barchart{
+    width: 45rem;
+    margin-top: -23rem;
+    margin-left: 5rem;
+  }
+  
+  .covidtitle3{
+    position: absolute;
+    top: 142rem;
+    width: 3rem;
+    left: 49.7rem;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  
+  .footer-link{
+    text-align: center;
+    margin-top: 1.5rem;
   }
 }

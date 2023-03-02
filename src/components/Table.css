@@ -19,6 +19,16 @@
     background-color: rgba(128, 128, 128, 0.205);
 }
 
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    .table{
+        margin-top: 1.5rem;
+        overflow-y: scroll;
+        width: 13.5rem;
+        height: 18rem;
+        color: rgb(39, 39, 39);
+    }  
+}
+
 @media only screen and (min-width: 390px) and (max-width: 480px){
     .table{
         margin-top: 1.5rem;
@@ -27,4 +37,33 @@
         height: 18rem;
         color: rgb(39, 39, 39);
     }  
+}
+
+@media only screen and (min-width: 768px){
+    .table{
+        margin-top: 1.5rem;
+        overflow-y: scroll;
+        width: 38rem;
+        height: 18rem;
+        color: rgb(39, 39, 39);
+    } 
+}
+
+@media only screen and (min-width: 1024px){
+   .table{
+    margin-top: 1.5rem;
+    overflow-y: scroll;
+    width: 15rem;
+    height: 15rem;
+    color: rgb(39, 39, 39);
+   } 
+}
+
+@media only screen and (min-width: 1366px){
+    .table{
+        margin-top: 1.5rem;
+        overflow-y: scroll;
+        width: 17rem;
+        height: 18rem;
+    }
 }

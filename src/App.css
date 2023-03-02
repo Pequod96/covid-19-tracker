@@ -105,7 +105,6 @@ p{
 
 .app-right{
   display: flex;
-  align-items: end;
   justify-content:center;
   flex-direction: column;
   margin-right: 3.5rem;
@@ -177,7 +176,6 @@ h3{
     justify-content: center;
     font-size: 2.5rem;
     padding-top: 12rem;
-    margin-right: 4rem;
   }
   
   .tracker {
@@ -306,7 +304,6 @@ h3{
     justify-content: center;
     font-size: 2.5rem;
     padding-top: 12rem;
-    margin-right: 4rem;
   }
   
   .tracker {
@@ -346,7 +343,7 @@ h3{
     justify-content: center;
     flex-direction: column;
     margin-top: 2rem;
-    margin-right: 3rem;
+    margin-right: 3.7rem;
     margin-left: 3rem;
     padding: 1.5rem;
   }
@@ -435,7 +432,6 @@ h3{
     justify-content: center;
     font-size: 3.5rem;
     padding-top: 12rem;
-    margin-right: 4rem;
   }
   
   .tracker {
@@ -448,7 +444,7 @@ h3{
     text-align: center;
     line-height: 1.5rem;
     margin-left: 10.5rem;
-    margin-right: 11.5rem;
+    margin-right: 11rem;
   }
 
   .covidtitle2{
@@ -615,7 +611,6 @@ h3{
   
   .app-right{
     display: flex;
-    align-items: end;
     justify-content:flex-end;
     margin-right: 6rem;
     margin-left: 40rem;
@@ -737,7 +732,6 @@ h3{
   
   .app-right{
     display: flex;
-    align-items: end;
     justify-content:flex-end;
     margin-right: 6rem;
     margin-left: 59rem;
@@ -752,7 +746,7 @@ h3{
   
   .covidtitle3{
     position: absolute;
-    top: 142rem;
+    top: 149rem;
     width: 3rem;
     left: 49.7rem;
     -webkit-transform: rotate(180deg);

@@ -1,6 +1,11 @@
 
 .infobox-cases{
-    width: 20rem;
+    width: 22.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 3rem;
+    margin-left: 3rem
 }
 
 .infobox-cases--green {

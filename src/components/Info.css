@@ -2,11 +2,13 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-family: 'Montserrat';
     letter-spacing: 2px;
     color: #96e6c1;
-    margin-top: 15rem;
+    margin-top: 16rem;
+    margin-right: 1.9rem;
+    margin-left: -1rem;
 }
 
 .link:hover{
@@ -14,36 +16,47 @@
 }
 
 .app-info{
-    margin-top: 13rem;
+    margin-top: 27rem;
+    text-align: center;
 }
 
 .title2{
-    display: flex;
-    justify-content: flex-end;
+    display: inline-block;
     margin-top: 9rem;
-    margin-right: 3rem;
-    font-size: 4.5rem;
+    margin-right: 1.2rem;
+    margin-left: 1.2rem;
+    font-size: 2.2rem;
     letter-spacing: 5px;
     font-family: 'Montserrat';
     color: rgb(219, 164, 92);
 }
 
 .covid1{
-    margin-top: -10rem;
-    margin-left: -5rem;
-    width: 53%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 6rem;
+    margin-left: 1rem;
+    margin-top: -16rem;
+    width: 85%;
+    padding-top: 24rem;
   }
 
 .info{
-    text-align: right;
-    margin-top: -33.5rem;
-    margin-left: 38rem;
-    margin-right: 3rem;
-    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-top: -32.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    font-size: 0.8rem;
     font-family: 'Montserrat';
-    line-height: 1.5rem;
+    line-height: 1.2rem;
     color:antiquewhite;
 }
+
+
 
 @media only screen and (min-width: 320px) and (max-width: 375px){
     .link{

@@ -60,31 +60,15 @@
 
 @media only screen and (min-width: 320px) and (max-width: 375px){
     .link{
-        display: flex;
-        justify-content: center;
-        text-decoration: none;
         font-size: 0.6rem;
         letter-spacing: 1px;
-        margin-right: 1.9rem;
-        margin-left: -1rem;
-    }
-    
-    .app-info{
-        text-align: center;
-        margin-top: 27rem;
     }
     
     .title2{
-        display: inline-block;
         font-size: 2.2rem;
-        margin-left: 1.2rem;
-        margin-right: 1.2rem;
     }
     
     .covid1{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
         margin-right: 1rem;
         margin-left: 1rem;
         width: 85%;
@@ -92,44 +76,19 @@
       }
     
     .info{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: left;
         margin-top: -31.5rem;
         margin-left: 2.5rem;
         margin-right: 2.5rem;
-        font-size: 0.8rem;
-        line-height: 1.2rem;
     }
 }
 
 @media only screen and (min-width: 390px) and (max-width: 480px){
     .link{
-        display: flex;
-        justify-content: center;
-        text-decoration: none;
-        font-size: 0.6rem;
         margin-right: 1.5rem;
         margin-left: -1rem;
     }
-    
-    .app-info{
-        text-align: center;
-        margin-top: 27rem;
-    }
-    
-    .title2{
-        display: inline-block;
-        font-size: 2.2rem;
-        margin-left: 1.2rem;
-        margin-right: 1.2rem;
-    }
-    
+
     .covid1{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
         margin-right: 1rem;
         margin-left: 1rem;
         width: 85%;
@@ -137,23 +96,14 @@
       }
     
     .info{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: left;
         margin-top: -33rem;
         margin-left: 3rem;
         margin-right: 3rem;
-        font-size: 0.8rem;
-        line-height: 1.2rem;
     }
 }
 
 @media only screen and (min-width: 768px){
     .link{
-        display: flex;
-        justify-content: center;
-        text-decoration: none;
         font-size: 0.8rem;
         letter-spacing: 2px;
         margin-top: 27rem;
@@ -162,31 +112,22 @@
     }
     
     .app-info{
-        text-align: center;
         margin-top: 35rem;
     }
     
     .title2{
-        display: inline-block;
         font-size: 3rem;
         margin-left: 1.2rem;
         margin-right: 1.2rem;
     }
     
     .covid1{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
         margin-right: 1rem;
         margin-left: 1rem;
-        width: 85%;
         padding-top: 28rem;
       }
     
     .info{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
         text-align: center;
         margin-top: -50.5rem;
         margin-left: 6.5rem;
@@ -198,11 +139,6 @@
 
 @media only screen and (min-width: 1024px){
     .link{
-        display: flex;
-        justify-content: center;
-        text-decoration: none;
-        font-size: 0.8rem;
-        font-family: 'Montserrat';
         letter-spacing: 2px;
         margin-top: 10rem;
     }
@@ -239,21 +175,15 @@
 
 @media only screen and (min-width: 1366px){
     .link{
-        display: flex;
-        justify-content: center;
-        text-decoration: none;
         font-size: 0.8rem;
-        letter-spacing: 2px;
         margin-top: 16rem;
     }
     
     .app-info{
-        margin-top: 19rem;
+        margin-top: 13rem;
     }
     
     .title2{
-        display: flex;
-        justify-content: flex-end;
         margin-top: 9rem;
         margin-right: 3rem;
         font-size: 4.5rem;
@@ -267,7 +197,6 @@
       }
     
     .info{
-        text-align: right;
         margin-top: -35.5rem;
         margin-left: 38rem;
         margin-right: 3rem;

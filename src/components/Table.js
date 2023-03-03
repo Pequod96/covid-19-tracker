@@ -6,10 +6,14 @@ const Table = ({states}) => {
   return (
     <div className='table'>
       {states.map(({ state, cases}) => (
+        <table>
+        <tbody>
         <tr>
             <td>{state}</td>
             <td><strong>{numeral(cases).format("0.0")}</strong></td>
         </tr>
+        </tbody>
+        </table>
       ))}
     </div>
   )

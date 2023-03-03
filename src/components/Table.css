@@ -1,11 +1,14 @@
 .table{
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     overflow-y: scroll;
     width: 21.5rem;
     height: 18rem;
     color: rgb(39, 39, 39);
 }
-
+table{
+    width: 20.8rem;
+    font-family: 'Montserrat';
+}
 .table tr{
     display: flex;
     justify-content: space-between;
@@ -15,7 +18,7 @@
     padding: 0.3rem;
 }
 
-.table tr:nth-of-type(odd){
+table:nth-of-type(odd){
     background-color: rgba(128, 128, 128, 0.205);
 }
 
@@ -27,6 +30,9 @@
         height: 18rem;
         color: rgb(39, 39, 39);
     }  
+    table{
+        width: 12.8rem;
+    }
 }
 
 @media only screen and (min-width: 390px) and (max-width: 480px){
@@ -37,6 +43,9 @@
         height: 18rem;
         color: rgb(39, 39, 39);
     }  
+    table{
+        width: 13.8rem;
+    }
 }
 
 @media only screen and (min-width: 768px){
@@ -47,6 +56,9 @@
         height: 18rem;
         color: rgb(39, 39, 39);
     } 
+    table{
+        width: 37.3rem;
+    }
 }
 
 @media only screen and (min-width: 1024px){
@@ -57,6 +69,9 @@
     height: 15rem;
     color: rgb(39, 39, 39);
    } 
+   table{
+    width: 14.3rem;
+}
 }
 
 @media only screen and (min-width: 1366px){
@@ -65,5 +80,8 @@
         overflow-y: scroll;
         width: 17rem;
         height: 18rem;
+    }
+    table{
+        width: 16.4rem;
     }
 }

@@ -5,8 +5,8 @@ import numeral from 'numeral';
 const Table = ({states}) => {
   return (
     <div className='table'>
-      {states.map(({ state, cases}) => (
-        <table>
+      {states.map(({ state, cases}, index) => (
+        <table key={index}>
         <tbody>
         <tr>
             <td>{state}</td>

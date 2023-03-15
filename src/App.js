@@ -171,7 +171,7 @@ function App() {
         <ThirdWrapper>
           <div className="footer-link">
             <Link to="#header" smooth>
-               COVID-19 TRACKER 
+              COVID-19 TRACKER
               <img className="covidtitle3" src={covidTitle2} alt="" />
             </Link>
           </div>
@@ -660,7 +660,7 @@ const SecondWrapper = styled.div`
 `;
 
 const ThirdWrapper = styled.div`
-a {
+  a {
     display: inline-block;
     padding-top: 1rem;
     padding-left: 3rem;
@@ -698,8 +698,8 @@ a {
   }
   @media only screen and (min-width: 320px) and (max-width: 375px) {
     a {
-    font-size: 0.6rem;
-  }
+      font-size: 0.6rem;
+    }
     .covidtitle3 {
       top: 175.8rem;
       left: 8.6rem;
@@ -718,8 +718,8 @@ a {
   }
   @media only screen and (min-width: 390px) and (max-width: 480px) {
     a {
-    font-size: 0.7rem;
-  }
+      font-size: 0.7rem;
+    }
     .covidtitle3 {
       top: 175.8rem;
       left: 8.2rem;

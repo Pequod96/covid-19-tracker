@@ -294,13 +294,14 @@ const FirstWrapper = styled.div`
   }
 
   .USAGov {
-    left: 21rem;
+    left: 21.3rem;
     width: 2rem;
   }
 
   p {
-    font-size: 0.8rem;
-    line-height: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    margin-top: 0.5rem;
     margin-left: 2.5rem;
     margin-right: 3.5rem;
   }
@@ -348,14 +349,14 @@ const FirstWrapper = styled.div`
     }
 
     p {
-      font-size: 0.9rem;
-      line-height: 1.5rem;
+      font-size: 1.1rem;
+      line-height: 1.6rem;
       margin-left: 10.5rem;
       margin-right: 11rem;
     }
 
     .covidtitle2 {
-      margin-top: 7rem;
+      margin-top: 6.5rem;
       margin-right: 3rem;
       height: 10rem;
       width: 10rem;
@@ -408,6 +409,7 @@ const FirstWrapper = styled.div`
       line-height: 1.5rem;
       margin-left: 3rem;
       margin-right: 32rem;
+      margin-top: 0rem;
     }
 
     .covidtitle2 {
@@ -566,7 +568,7 @@ const SecondWrapper = styled.div`
     }
 
     .barchart {
-      width: 21.5rem;
+      width: 90%;
       margin-top: -40rem;
       margin-left: 1rem;
       margin-right: 1rem;
@@ -592,7 +594,7 @@ const SecondWrapper = styled.div`
     }
 
     .barchart {
-      width: 43.5rem;
+      width: 90%;
       margin-top: -55rem;
       margin-left: 1rem;
       margin-right: 1rem;
@@ -630,7 +632,7 @@ const SecondWrapper = styled.div`
     }
 
     .barchart {
-      width: 34rem;
+      width: 50%;
       margin-top: -17rem;
       margin-left: 3rem;
     }
@@ -660,7 +662,7 @@ const SecondWrapper = styled.div`
     }
 
     .barchart {
-      width: 45rem;
+      width: 50%;
       margin-top: -23rem;
       margin-left: 5rem;
     }
@@ -729,7 +731,7 @@ const ThirdWrapper = styled.div`
       font-size: 0.7rem;
     }
     .covidtitle3 {
-      top: 175.8rem;
+      top: 179.8rem;
       left: 8.2rem;
       width: 8rem;
       height: 3.5rem;
@@ -755,7 +757,7 @@ const ThirdWrapper = styled.div`
       font-size: 1rem;
     }
     .covidtitle3 {
-      top: 215.8rem;
+      top: 219rem;
       left: 20.5rem;
       width: 7.5rem;
       height: 4rem;

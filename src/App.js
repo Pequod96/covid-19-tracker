@@ -201,6 +201,7 @@ const FirstWrapper = styled.div`
     font-weight: 500;
     color: rgb(247, 205, 150);
     letter-spacing: 3px;
+    outline: none;
   }
 
   a:hover {
@@ -294,7 +295,7 @@ const FirstWrapper = styled.div`
   }
 
   .USAGov {
-    left: 21.3rem;
+    left: 21.5rem;
     width: 2rem;
   }
 

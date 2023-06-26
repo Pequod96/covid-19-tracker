@@ -19,6 +19,7 @@ import { StatesData } from "./Data";
 import Info from "./components/Info";
 import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
+import { ClipLoader } from "react-spinners";
 import styled from "styled-components";
 
 function App() {
@@ -130,7 +131,7 @@ function App() {
                 value={country}
                 onChange={onCountryChange}
               >
-                <MenuItem value="USA States">USA States</MenuItem>
+                <MenuItem className="usaStates" value="USA States">USA States</MenuItem>
                 {countries.map((country, index) => (
                   <MenuItem key={index} value={country.value}>
                     {country.name}
@@ -500,16 +501,23 @@ const SecondWrapper = styled.div`
   }
 
   .app-right {
+    background-color: black;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-right: 2.5rem;
     margin-left: 2.5rem;
     margin-top: 20rem;
+    border: 3px solid rgb(247, 205, 150);
+    border-radius: 2rem;
   }
 
   h3 {
     font-family: "Montserrat";
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
   }
 
   .barchart {

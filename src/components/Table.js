@@ -28,16 +28,21 @@ const Table = ({ states }) => {
 export default Table;
 
 const TableWrapper = styled.div`
+background-color: black;
   .table {
+    background-color: black;
     margin-top: 1rem;
     overflow-y: scroll;
     width: 23.5rem;
     height: 18rem;
-    color: rgb(39, 39, 39);
+    color: white;
+    border-radius: 1rem;
   }
   table {
     width: 22.8rem;
+    color: white;
     font-family: "Montserrat";
+    background-color: black;
   }
   .table tr {
     display: flex;
@@ -46,6 +51,7 @@ const TableWrapper = styled.div`
 
   .table td {
     padding: 0.3rem;
+
   }
 
   table:nth-of-type(odd) {
@@ -54,10 +60,7 @@ const TableWrapper = styled.div`
   @media only screen and (min-width: 320px) and (max-width: 375px) {
     .table {
       margin-top: 1.5rem;
-      overflow-y: scroll;
       width: 15.5rem;
-      height: 18rem;
-      color: rgb(39, 39, 39);
     }
     table {
       width: 14.8rem;
@@ -67,23 +70,17 @@ const TableWrapper = styled.div`
   @media only screen and (min-width: 390px) and (max-width: 480px) {
     .table {
       margin-top: 1.5rem;
-      overflow-y: scroll;
-      width: 15.5rem;
-      height: 18rem;
-      color: rgb(39, 39, 39);
+      width: 14.8rem;
     }
     table {
-      width: 14.8rem;
+      width: 13.8rem;
     }
   }
 
   @media only screen and (min-width: 768px) {
     .table {
       margin-top: 1.5rem;
-      overflow-y: scroll;
       width: 38rem;
-      height: 18rem;
-      color: rgb(39, 39, 39);
     }
     table {
       width: 37.3rem;
@@ -93,10 +90,8 @@ const TableWrapper = styled.div`
   @media only screen and (min-width: 1024px) {
     .table {
       margin-top: 1.5rem;
-      overflow-y: scroll;
       width: 15rem;
       height: 15rem;
-      color: rgb(39, 39, 39);
     }
     table {
       width: 14.3rem;
@@ -106,7 +101,6 @@ const TableWrapper = styled.div`
   @media only screen and (min-width: 1366px) {
     .table {
       margin-top: 1.5rem;
-      overflow-y: scroll;
       width: 17rem;
       height: 18rem;
     }
